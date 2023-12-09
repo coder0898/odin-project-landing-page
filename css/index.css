@@ -34,3 +34,47 @@ header ul li{
     color: #E5E7EB;
     text-transform: lowercase;
 }
+
+
+.hero-page-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 35px;
+    gap:20px;
+    background-color: #1F2937;
+}
+
+.hero-page-section .hero-text{
+    width: 500px;
+}
+
+.hero-page-section .hero-text h2{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-page-section .hero-text p{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: justify;
+}
+
+.hero-page-section .hero-text button{
+    width: 130px;
+    height: 40px;
+    padding: 5px;
+    margin-top: 7px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+}
+
+.hero-page-section img{
+    width: 600px;
+    height: 250px;
+}
