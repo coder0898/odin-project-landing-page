@@ -78,3 +78,41 @@ header ul li{
     width: 600px;
     height: 250px;
 }
+
+.service-page-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.service-page-section h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 10px;
+}
+
+.service-page-section .service-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.service-page-section .service-info .info-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-page-section .service-info .info-item img{
+    width: 350px;
+    height: 250px;
+}
+
+.service-page-section .service-info .info-item p{
+    font-size: 20px;
+    font-weight: 700;
+}
