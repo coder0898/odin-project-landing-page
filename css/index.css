@@ -85,6 +85,7 @@ header ul li{
     justify-content: center;
     align-items: center;
     padding: 20px;
+    margin-bottom: 25px;
 }
 
 .service-page-section h2{
@@ -115,4 +116,29 @@ header ul li{
 .service-page-section .service-info .info-item p{
     font-size: 20px;
     font-weight: 700;
+}
+
+.quote-page-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 35px;
+    width: 100%;
+}
+
+.quote-page-section p{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    width: 900px;
+    margin-bottom: 10px;
+}
+
+.quote-page-section .author-box p{
+    font-weight: 800;
+    display: flex;
+    justify-content: flex-end;
 }
