@@ -126,6 +126,7 @@ header ul li{
     background-color: #E5E7EB;
     padding: 35px;
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .quote-page-section p{
@@ -141,4 +142,59 @@ header ul li{
     font-weight: 800;
     display: flex;
     justify-content: flex-end;
+}
+
+.action-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin-bottom: 15px;
+}
+
+.action-section .call-action-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+    background-color: #3882F6;
+    padding: 30px;
+    border-radius:1rem;
+}
+
+.action-section .call-action-box h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.action-section .call-action-box p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #F9FAF8;
+}
+
+.action-section button{
+    width: 120px;
+    height: 32px;
+    background-color: transparent;
+    border: 2px solid #F9FAF8;
+    outline: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-color: #1F2937;
+}
+
+footer p{
+    font-size: 20px;
+    color: #F9FAF8;
 }
